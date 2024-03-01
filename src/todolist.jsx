@@ -20,6 +20,7 @@ function Todolist() {
 
       setTodos([...todos, newtodo])
       setTdname("")
+      setTddescription("")
     }
     else {
       alert("Please enter the name and description")
