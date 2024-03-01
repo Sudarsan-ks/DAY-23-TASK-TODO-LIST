@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(49, 51, 49);
+  height: 1000px;
+  width: 1000px;
+}
+
+.heading {
+  margin: 10px;
+  color: white;
+}
+
+.addbox {
+  margin: 30px 5px;
+}
+
+#todoname {
+  margin-left: 5px;
+  margin-right: 20px;
+  border: 2px solid rgb(218, 208, 208);
+  border-radius: 5px;
+
+}
+
+#tododescription {
+  margin-left: 5px;
+  margin-right: 20px;
+  border: 2px solid rgb(218, 208, 208);
+  border-radius: 5px;
+}
+
+#addbtn {
+  background-color: rgb(64, 255, 0);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 125px;
+}
+
+.todolist {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: white;
+}
+
+.flstatus {
+  display: flex;
+  gap: 5px;
+}
+
+.displaytodo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.todocard {
+  background-color: aquamarine;
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid red;
+}
+
+.filter {
+  display: flex;
+  gap: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.editbtn {
+  background-color: rgba(107, 176, 11, 0.856);
+  width: 50px;
+  border-radius: 10px;
+}
+
+.delbtn {
+  background-color: rgba(107, 176, 11, 0.856);
+  width: 60px;
+  border-radius: 10px;
+}
+
+option {
+  cursor: pointer;
+}
+
+.ntcom {
+  background-color: red;
+
+}
+
+.com {
+  background-color: green;
+
+}
+
+@media (min-width: 370px) {
+  .container {
+    max-width: 350px;
+  }
+
+}
+
+@media(min-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
