@@ -8,7 +8,7 @@ function Todolist() {
   const [tddescription, setTddescription] = useState("");
   const [todos, setTodos] = useState([]);
   const [statusfilter, setStatusfilter] = useState("All")
-  const [statuschange, Setstatuschange] = useState(["Not Completed"])
+  const [statuschange, Setstatuschange] = useState("Not Completed")
 
   const addtodo = () => {
     if (tdname.trim() !== "" || tddescription.trim() !== "") {
